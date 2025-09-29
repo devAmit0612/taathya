@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Website Title -->
+    <title>Taathya</title>
+    
+    <!-- Website Favicon -->
+    <link href="assets/images/logos/favicon.ico" rel="icon" />
+
+	<!-- Google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/vendors.bundle.css" media="all">
+    <link rel="stylesheet" href="assets/css/styles.css" media="all">
+    
+</head>
+<body>
+
+	<div id="loader">
+		<img src="assets/images/logos/favicon.svg" alt="">
+	</div>
+
+ 	<div id="wrapper">
+		<header id="header">
+			<div class="container header-container">
+				<a href="index.html" class="brand">
+					<img src="assets/images/logos/logo.png" alt="">
+				</a>
+				<nav id="menu" class="navbar">
+					<ul>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Features</a></li>
+						<li><a href="#">News</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#" class="btn btn--primary">Login</a></li>
+					</ul>
+				</nav>
+				<button type="button" id="hamburger"><span></span></button>
+			</div>
+		</header>
+
+        <main id="primary" class="site-main">
+            <section class="section under-header overflow-hidden">
+                <div class="container">
+                    <div class="row row--sm gap mb-64">
+                        <div class="col-lg-4">
+                            <input type="text" placeholder="Search property" class="form-control form-control--lg">
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <select name="type" id="type" class="select-control">
+                                <option value="0" disabled hidden selected>Property Type</option>
+                                <option value="Commercial">Commercial</option>
+                                <option value="Residency">Residency</option>
+                            </select>
+                        </div>
+                        <div class="col-sm-6 col-lg-3">
+                            <select name="budget" id="budget" class="select-control">
+                                <option value="0" disabled hidden selected>Budget</option>
+                                <option value="50,00,000">50,00,000</option>
+                                <option value="60,00,000">60,00,000</option>
+                                <option value="70,00,000">70,00,000</option>
+                            </select>
+                        </div>
+                        <div class="col-lg-2">
+                            <input type="submit" value="Search" class="btn btn--primary w-100">
+                        </div>
+                    </div>
+                    <div class="row gap section__title">
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="property-card">
+                                <div class="property-card__hero">
+                                    <img src="assets/images/hero/1.jpg" alt="">
+                                </div>
+                                <div class="property-card__body">
+                                    <div class="h4 text-dark">Skyline</div>
+                                    <div class="text-primary">Shilp Group Shantigram, Ahmedabad</div>
+                                    <div class="fw-medium">4 Beds | 2 Baths | 1,800 Sqft</div>
+                                </div>
+                                <div class="property-card__foot fw-medium">                                    
+                                    <div class="property-card__price">
+                                        <del>₹50,00,000</del>
+                                        <i>Your Savings</i>
+                                    </div>
+                                    <div class="property-card__price">
+                                        <span class="fw-bold">₹45,00,000</span>
+                                        <span class="fw-bold fs-18 text-success">₹5,00,000</span>
+                                    </div>
+                                    <a href="#" class="btn btn--primary w-100">check now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="property-card">
+                                <div class="property-card__hero">
+                                    <img src="assets/images/hero/2.jpg" alt="">
+                                </div>
+                                <div class="property-card__body">
+                                    <div class="h4 text-dark">The Rhythm Palace</div>
+                                    <div class="text-primary">Rhythm Realty Nikol, Ahmedabad</div>
+                                    <div class="fw-medium">4 Beds | 2 Baths | 1,800 Sqft</div>
+                                </div>
+                                <div class="property-card__foot fw-medium">                                    
+                                    <div class="property-card__price">
+                                        <del>₹50,00,000</del>
+                                        <i>Your Savings</i>
+                                    </div>
+                                    <div class="property-card__price">
+                                        <span class="fw-bold">₹45,00,000</span>
+                                        <span class="fw-bold fs-18 text-success">₹5,00,000</span>
+                                    </div>
+                                    <a href="#" class="btn btn--primary w-100">check now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="property-card">
+                                <div class="property-card__hero">
+                                    <img src="assets/images/hero/3.jpg" alt="">
+                                </div>
+                                <div class="property-card__body">
+                                    <div class="h4 text-dark">Sapphire Palms</div>
+                                    <div class="text-primary">Shivalik SG Highway, Ahmedabad</div>
+                                    <div class="fw-medium">4 Beds | 2 Baths | 1,800 Sqft</div>
+                                </div>
+                                <div class="property-card__foot fw-medium">                                    
+                                    <div class="property-card__price">
+                                        <del>₹50,00,000</del>
+                                        <i>Your Savings</i>
+                                    </div>
+                                    <div class="property-card__price">
+                                        <span class="fw-bold">₹45,00,000</span>
+                                        <span class="fw-bold fs-18 text-success">₹5,00,000</span>
+                                    </div>
+                                    <a href="#" class="btn btn--primary w-100">check now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="property-card">
+                                <div class="property-card__hero">
+                                    <img src="assets/images/hero/4.png" alt="">
+                                </div>
+                                <div class="property-card__body">
+                                    <div class="h4 text-dark">Sahitya Sky</div>
+                                    <div class="text-primary">Balaji Realty Nikol, Ahmedabad</div>
+                                    <div class="fw-medium">4 Beds | 2 Baths | 1,800 Sqft</div>
+                                </div>
+                                <div class="property-card__foot fw-medium">                                    
+                                    <div class="property-card__price">
+                                        <del>₹50,00,000</del>
+                                        <i>Your Savings</i>
+                                    </div>
+                                    <div class="property-card__price">
+                                        <span class="fw-bold">₹45,00,000</span>
+                                        <span class="fw-bold fs-18 text-success">₹5,00,000</span>
+                                    </div>
+                                    <a href="#" class="btn btn--primary w-100">check now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="property-card">
+                                <div class="property-card__hero">
+                                    <img src="assets/images/hero/5.jpg" alt="">
+                                </div>
+                                <div class="property-card__body">
+                                    <div class="h4 text-dark">Swastik Ananta</div>
+                                    <div class="text-primary">Swamaryvella Developers Nikol, Ahmedabad</div>
+                                    <div class="fw-medium">4 Beds | 2 Baths | 1,800 Sqft</div>
+                                </div>
+                                <div class="property-card__foot fw-medium">                                    
+                                    <div class="property-card__price">
+                                        <del>₹50,00,000</del>
+                                        <i>Your Savings</i>
+                                    </div>
+                                    <div class="property-card__price">
+                                        <span class="fw-bold">₹45,00,000</span>
+                                        <span class="fw-bold fs-18 text-success">₹5,00,000</span>
+                                    </div>
+                                    <a href="#" class="btn btn--primary w-100">check now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-6">
+                            <div class="property-card">
+                                <div class="property-card__hero">
+                                    <img src="assets/images/hero/6.jpg" alt="">
+                                </div>
+                                <div class="property-card__body">
+                                    <div class="h4 text-dark">Shakti Exalt</div>
+                                    <div class="text-primary">Shakti Infrastructure Shilaj, Ahmedabad</div>
+                                    <div class="fw-medium">4 Beds | 2 Baths | 1,800 Sqft</div>
+                                </div>
+                                <div class="property-card__foot fw-medium">                                    
+                                    <div class="property-card__price">
+                                        <del>₹50,00,000</del>
+                                        <i>Your Savings</i>
+                                    </div>
+                                    <div class="property-card__price">
+                                        <span class="fw-bold">₹45,00,000</span>
+                                        <span class="fw-bold fs-18 text-success">₹5,00,000</span>
+                                    </div>
+                                    <a href="#" class="btn btn--primary w-100">check now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <nav class="pagination">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/images/icons/arrow-left.svg" alt="">
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">1</a>
+                            </li>
+                            <li>
+                                <a href="#" class="active">2</a>
+                            </li>
+                            <li>
+                                <a href="#">3</a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <img src="assets/images/icons/arrow-right.svg" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </section>
+		</main>
+		
+		<footer id="footer">
+            <div class="container">
+                <div class="row row--md gap">
+                    <div class="col-lg-4">
+                        <div class="mb-40">
+                            <a href="index.html">
+                                <img src="assets/images/logos/logo-v.svg" alt="">
+                            </a>
+                        </div>
+                        <p>Helping individuals and businesses achieve financial growth with reliable loan solutions and trusted services.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row row--md gap">
+                            <div class="col-6">
+                                <ul class="footer-link">
+                                    <li><a href="#">My account</a></li>
+                                    <li><a href="property-list.html">Properties</a></li>
+                                    <li><a href="loan.html">apply for Loan</a></li>
+                                    <li><a href="blog.html">LATEST UPDATES</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <div class="footer-title">Contact us</div>
+                                <div class="contact-phone"><a href="tel:92 666 888 0000">92 666 888 0000</a></div>
+                                <div class="contact-email"><a href="mailto:hello@taathya.com">hello@taathya.com</a></div>
+                            </div>
+                            <div class="col-6">
+                                <div class="footer-title">Follow us</div>
+                                <ul class="footer-social">
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <img src="assets/images/svg/facebook.svg" class="svg" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <img src="assets/images/svg/google.svg" class="svg" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <img src="assets/images/svg/instagram.svg" class="svg" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <div class="footer-title">Let’s chat</div>
+                                <ul class="footer-social">
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <img src="assets/images/svg/whatsapp.svg" class="svg" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-footer text-center">© 2023 — Copyright PRIVACY</div>
+                <a role="button" id="scroll_top">
+                    <div>Tap to top</div>
+                    <img src="assets/images/svg/scroll-top.svg" alt="">
+                </a>
+            </div>
+        </footer>
+	</div>
+    
+    <!-- Scripts -->
+    <script src="assets/js/vendors.bundle.js"></script>
+    <script src="assets/js/scripts.bundle.js"></script>
+</body>
+</html>

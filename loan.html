@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <!-- Website Title -->
+    <title>Taathya</title>
+    
+    <!-- Website Favicon -->
+    <link href="assets/images/logos/favicon.ico" rel="icon" />
+
+	<!-- Google fonts -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="assets/css/vendors.bundle.css" media="all">
+    <link rel="stylesheet" href="assets/css/styles.css" media="all">
+    
+</head>
+<body>
+
+	<div id="loader">
+		<img src="assets/images/logos/favicon.svg" alt="">
+	</div>
+
+ 	<div id="wrapper">
+		<header id="header">
+			<div class="container header-container">
+				<a href="index.html" class="brand">
+					<img src="assets/images/logos/logo.png" alt="">
+				</a>
+				<nav id="menu" class="navbar">
+					<ul>
+						<li><a href="#">About us</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Features</a></li>
+						<li><a href="#">News</a></li>
+						<li><a href="#">Contact</a></li>
+						<li><a href="#" class="btn btn--primary">Login</a></li>
+					</ul>
+				</nav>
+				<button type="button" id="hamburger"><span></span></button>
+			</div>
+		</header>
+
+		<main id="primary" class="site-main">
+            <section class="section under-header overflow-hidden">
+                <div class="container">
+                    <div class="col-md-9 col-lg-8 mx-auto text-center">
+                        <h1 class="h2 section__title">Get Your Loan, Get 0.5% Cashback</h1>
+                    </div>
+                </div>
+                <div id="inner_hero" class="inner-hero">
+                    <img src="assets/images/hero/loan.jpg" alt="">
+                </div>
+            </section>
+
+            <div class="overflow-hidden">
+                <section class="section pt-0">
+                    <div class="container">
+                        <div class="row mb-40">
+                            <div class="col-lg-6 ml-auto">
+                                <h2 class="h3 mb-0 text-dark">Get the Most Affordable Property Loans with 0.5% Rewards</h2>
+                            </div>
+                        </div>
+                        <div class="row row--lg gap">
+                            <div class="col-lg-6 mobile-hide">
+                                <div class="mx-auto" style="max-width: 460px;">
+                                    <img src="assets/images/svg/loan-2.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="row row--sm gap">
+                                    <div class="col-12">
+                                        <input type="text" placeholder="Name" class="form-control form-control--lg">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="text" placeholder="Phone Number" class="form-control form-control--lg">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="text" placeholder="Meeting Adresss" class="form-control form-control--lg">
+                                    </div>
+                                    <div class="col-12">
+                                        <div class="radio-group">
+                                            <div class="radio-group__label">Property Type</div>
+                                            <label for="residential" class="radio">
+                                                <input type="radio" name="property" id="residential">
+                                                <span>Residential</span>
+                                            </label>
+                                            <label for="commercial" class="radio">
+                                                <input type="radio" name="property" id="commercial">
+                                                <span>Commercial</span>
+                                            </label>
+                                            <label for="both1" class="radio">
+                                                <input type="radio" name="property" id="both1">
+                                                <span>Both</span>
+                                            </label>
+                                        </div>
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="text" placeholder="Loan Amount" class="form-control form-control--lg">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="text" placeholder="Principal Amount" class="form-control form-control--lg">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="text" placeholder="Loan Period" class="form-control form-control--lg">
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="text" placeholder="Date" class="form-control form-control--lg form-control--date">
+                                    </div>
+                                    <div class="col-6">
+                                        <input type="time" placeholder="Time" class="form-control form-control--lg">
+                                    </div>
+                                    <div class="col-12">
+                                        <input type="submit" value="Schedule a meeting now" class="btn btn--primary w-100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="section pt-0">
+                    <div class="container">
+                        <div class="mb-64 text-center">
+                            <h2 class="mb-0 section__h2">Calculate Your 0.5% Rewards</h2>
+                        </div>
+                        <div class="row row--lg align-items-center gap">
+                            <div class="col-lg-6 mobile-hide">
+                                <div class="mx-auto" style="max-width: 460px;">
+                                    <img src="assets/images/svg/cash-back.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div id="cashback_cal">
+                                    <div class="mb-40 text-dark">Type in your loan amount and we’ll show you the rewards you get, right away.</div>
+                                    <div class="row row--sm gap">
+                                        <div class="col-12">
+                                            <input type="text" inputmode="numeric" pattern='[0-9]*' placeholder="Enter Loan Amount" class="form-control form-control--lg">
+                                            <div class="form-error">Please enter amount</div>
+                                        </div>
+                                        <div class="col-12">
+                                            <input type="button" value="calculatE YOUR CASHBACK" class="btn btn--primary w-100">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div id="cashback">
+                                    <div class="cashback">
+                                        <div class="mb-40">
+                                            <div class="cashback__text">
+                                                <h4>cashback</h4>
+                                                <div class="h3" style="display: flex; gap: 4px;">&#8377; <div id="cashback_rupee"></div></div>
+                                            </div>
+                                            <img src="assets/images/svg/card.svg" alt="">
+                                        </div>
+                                        <input type="button" value="Reset" class="btn btn--primary w-100">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+            <section class="section overflow-hidden pt-0">
+                <div class="container">
+                    <div class="mb-64 text-center">
+                        <h2 class="mb-0 section__h2">Our Property Partners</h2>
+                    </div>
+                </div>
+                <div class="marquee marquee--logo">
+                    <div class="marquee__item">
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/1.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/2.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/3.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/4.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/5.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/6.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/7.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/1.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/2.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/3.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/4.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/5.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/6.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/7.png" alt="">
+                            </div>
+                        </span>
+                    </div>
+                    <div class="marquee__item">
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/1.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/2.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/3.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/4.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/5.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/6.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/7.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/1.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/2.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/3.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/4.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/5.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/6.png" alt="">
+                            </div>
+                        </span>
+                        <span>
+                            <div class="marquee__logo">
+                                <img src="assets/images/partners/7.png" alt="">
+                            </div>
+                        </span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section overflow-hidden pt-0">
+                <div class="container">
+                    <div class="mb-64 text-center">
+                        <h2 class="mb-0 section__h2">Don't just take our word for it</h2>
+                    </div>
+                    <div id="testimonials">
+                        <div class="swiper">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                                        <span class="testimonial-card__author">johan Dutt <span>(Tikler)</span></span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                                        <span class="testimonial-card__author">johan Dutt <span>(Tikler)</span></span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                                        <span class="testimonial-card__author">johan Dutt <span>(Tikler)</span></span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                                        <span class="testimonial-card__author">johan Dutt <span>(Tikler)</span></span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                                        <span class="testimonial-card__author">johan Dutt <span>(Tikler)</span></span>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="testimonial-card">
+                                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text</p>
+                                        <span class="testimonial-card__author">johan Dutt <span>(Tikler)</span></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-button">
+                            <div class="swiper-button-prev">
+                                <img src="assets/images/icons/arrow-left.svg" alt="">
+                            </div>
+                            <div class="swiper-button-next">
+                                <img src="assets/images/icons/arrow-right.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="section overflow-hidden pt-0">
+                <div class="container">
+                    <div class="mb-64 text-center">
+                        <h2 class="mb-0 section__h2">Latest Updates</h2>
+                    </div>
+                    <div class="row gap section__title">
+                        <div class="col-lg-4">
+                            <div class="blog-card">
+                                <div class="blog-card__hero">
+                                    <img src="assets/images/hero/1.jpg" alt="">
+                                </div>
+                                <div class="blog-card__content">
+                                    <div class="blog-card__body">
+                                        <h3 class="h4 text-dark">Lorem Ipsum is simply dummy text print</h3>
+                                        <p>orem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    </div>
+                                    <div class="blog-card__foot">
+                                        <span>Jun 9, 2025</span>
+                                        <a href="blog-details.html">
+                                            <span>See more</span>
+                                            <img src="assets/images/icons/arrow-left-sm.svg" class="svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="blog-card">
+                                <div class="blog-card__hero">
+                                    <img src="assets/images/hero/1.jpg" alt="">
+                                </div>
+                                <div class="blog-card__content">
+                                    <div class="blog-card__body">
+                                        <h3 class="h4 text-dark">Lorem Ipsum is simply dummy text print</h3>
+                                        <p>orem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    </div>
+                                    <div class="blog-card__foot">
+                                        <span>Jun 9, 2025</span>
+                                        <a href="blog-details.html">
+                                            <span>See more</span>
+                                            <img src="assets/images/icons/arrow-left-sm.svg" class="svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div class="blog-card">
+                                <div class="blog-card__hero">
+                                    <img src="assets/images/hero/1.jpg" alt="">
+                                </div>
+                                <div class="blog-card__content">
+                                    <div class="blog-card__body">
+                                        <h3 class="h4 text-dark">Lorem Ipsum is simply dummy text print</h3>
+                                        <p>orem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                                    </div>
+                                    <div class="blog-card__foot">
+                                        <span>Jun 9, 2025</span>
+                                        <a href="blog-details.html">
+                                            <span>See more</span>
+                                            <img src="assets/images/icons/arrow-left-sm.svg" class="svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="text-right">
+                        <a href="#" class="btn btn--link">
+                            <span>see all insights</span>
+                            <img src="assets/images/icons/arrow-top-right.svg" alt="">
+                        </a>
+                    </div>
+                </div>
+            </section>
+		</main>
+		
+		<footer id="footer">
+            <div class="container">
+                <div class="row row--md gap">
+                    <div class="col-lg-4">
+                        <div class="mb-40">
+                            <a href="index.html">
+                                <img src="assets/images/logos/logo-v.svg" alt="">
+                            </a>
+                        </div>
+                        <p>Helping individuals and businesses achieve financial growth with reliable loan solutions and trusted services.</p>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="row row--md gap">
+                            <div class="col-6">
+                                <ul class="footer-link">
+                                    <li><a href="#">My account</a></li>
+                                    <li><a href="property-list.html">Properties</a></li>
+                                    <li><a href="loan.html">apply for Loan</a></li>
+                                    <li><a href="blog.html">LATEST UPDATES</a></li>
+                                    <li><a href="contact.html">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <div class="footer-title">Contact us</div>
+                                <div class="contact-phone"><a href="tel:92 666 888 0000">92 666 888 0000</a></div>
+                                <div class="contact-email"><a href="mailto:hello@taathya.com">hello@taathya.com</a></div>
+                            </div>
+                            <div class="col-6">
+                                <div class="footer-title">Follow us</div>
+                                <ul class="footer-social">
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <img src="assets/images/svg/facebook.svg" class="svg" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <img src="assets/images/svg/google.svg" class="svg" alt="">
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <img src="assets/images/svg/instagram.svg" class="svg" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <div class="footer-title">Let’s chat</div>
+                                <ul class="footer-social">
+                                    <li>
+                                        <a href="#" target="_blank">
+                                            <img src="assets/images/svg/whatsapp.svg" class="svg" alt="">
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="last-footer text-center">© 2023 — Copyright PRIVACY</div>
+                <a role="button" id="scroll_top">
+                    <div>Tap to top</div>
+                    <img src="assets/images/svg/scroll-top.svg" alt="">
+                </a>
+            </div>
+        </footer>
+	</div>
+    
+    <!-- Scripts -->
+    <script src="assets/js/vendors.bundle.js"></script>
+    <script src="assets/js/scripts.bundle.js"></script>
+</body>
+</html>
