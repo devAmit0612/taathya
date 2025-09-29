@@ -157,7 +157,7 @@ const Bundle = function() {
                     setTimeout(() => {
                         GS.timeline()
                         .to(rocketImage, { yPercent: 200 })
-                        .to(option, { y: 0, autoAlpha: 1 }, "<")
+                        .to(option, { y: 0, autoAlpha: 1, position: 'relative' }, "<")
                         .to(rocket, { autoAlpha: 0 });
                     }, 1500);
                 }
