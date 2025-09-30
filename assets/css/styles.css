@@ -817,6 +817,14 @@ h6, .h6 {
 	color: var(--primary);
 }
 
+.btn.btn--link img {
+	transition: all 250ms;
+}
+
+.btn.btn--link:hover img {
+	transform: rotate(45deg);
+}
+
 .btn.btn--primary {
 	--btn-color: var(--primary);
 	--btn-border-color: var(--primary);
@@ -1653,6 +1661,11 @@ html.lenis, html.lenis body {
 	border-radius: 94px;
 	background-color: var(--primary);
 	margin: 0 auto 24px;
+	transition: all 350ms;
+}
+
+.icon-list .icon-list__item:hover .icon {
+	transform: scale(1.1);
 }
 
 .screen {

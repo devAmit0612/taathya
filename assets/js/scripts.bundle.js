@@ -153,11 +153,11 @@ const Bundle = function() {
                 visibility: 'hidden',
                 onComplete: () => {
                     $('#intro_section').addClass('hide');
-                    GS.to(rocket, { autoAlpha: 1, y: 0 });
+                    GS.to(rocket, { autoAlpha: 1, duration: 1, y: 0 });
                     setTimeout(() => {
                         GS.timeline()
-                        .to(rocketImage, { yPercent: 200 })
-                        .to(option, { y: 0, autoAlpha: 1, position: 'relative' }, "<")
+                        .to(rocketImage, { yPercent: 200, duration: 1 })
+                        .to(option, { y: 0, autoAlpha: 1, position: 'relative', duration: 1 }, "<")
                         .to(rocket, { autoAlpha: 0 });
                     }, 1500);
                 }
